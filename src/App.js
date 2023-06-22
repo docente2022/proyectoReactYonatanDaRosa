@@ -1,13 +1,13 @@
 
-import './App.css';
 import React from 'react';
-import Navbar from './componentes/index';
-
-
+import Menu from './componentes/navbar';
+import RelojesMasculinos from './componentes/productos';
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div>
-    <Navbar />
+    < Menu/>
+    <RelojesMasculinos/>
     {/* Aquí iría el resto de tu aplicación */}
   </div>
 );
