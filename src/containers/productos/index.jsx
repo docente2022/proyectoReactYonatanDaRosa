@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import '../../../src/index.css'
 
-// import { Rating } from "@mui/material";
+import { Rating } from "@mui/material";
 import relojesData from './relojes.json';
 
 const RelojesMasculinos = () => {
@@ -15,7 +15,7 @@ const RelojesMasculinos = () => {
   
     return (
       <div className="relojes-container">
-        <h2 className="text-center pb-5">Relojes Masculinos</h2>
+        <h2 className="text-center pb">Relojes Masculinos</h2>
         <div className="relojes-grid">
         {relojes.map((reloj) => ( 
             <div key={reloj.id}>
@@ -30,6 +30,7 @@ const RelojesMasculinos = () => {
                 Precio: ${reloj.precio}
                 </Card.Text>
             <Button variant="primary">comprar</Button>
+            <Rating />
       </Card.Body>
     </Card>
           </div>

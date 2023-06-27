@@ -3,8 +3,16 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Source Code Pro', monospace;
 }
-
+.menu{
+  font-family: 'Source Code Pro', monospace;
+}
+h1, h2{
+  font-family: 'Creepster', cursive;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
 .relojes-container {
   max-width: 1200px; /* Ajusta el ancho máximo según tus necesidades */
   margin: 0 auto;
@@ -17,3 +25,60 @@ body {
   gap: 20px; /* Espacio entre las tarjetas */
 }
 
+.destacados {
+
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.destacados img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.footer-column {
+  flex-basis: 33.33%;
+  margin-bottom: 10px;
+}
+
+.rights {
+  text-align: left;
+}
+
+.contact {
+  text-align: center;
+}
+
+.share {
+  text-align: right;
+}
+
+.social-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-link {
+  margin-left: 10px;
+  color: #555;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #333;
+}
