@@ -3,10 +3,12 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import '../../../src/index.css'
 import { Rating } from "@mui/material";
-import Nav from 'react-bootstrap/Nav';
-import relojesData from './relojes.json';
+import relojesData from './data.json';
+import { Link } from "react-router-dom";
 
-const RelojesMasculinos = () => {
+
+
+const Smartwatch = () => {
     const [relojes, setRelojes] = useState([]);
   
     useEffect(() => {
@@ -14,11 +16,11 @@ const RelojesMasculinos = () => {
     }, []);
   
     return (
-      <div className="relojes-container pt-5">
-        <h2 className="text-center pt-4 pb-4 text-bg-info">Relojes Masculinos destacados</h2>
+      <div className="relojes-container">
+        <h2 className="text-center pb">TODOS LOS PRODUCTOS</h2>
         <div className="relojes-grid">
         {relojes.map((reloj) => ( 
-            <Nav.Link key={reloj.id}>
+            <Link key={reloj.id}>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={reloj.imagen} alt={reloj.nombre}/>
                 <Card.Body>
@@ -33,7 +35,7 @@ const RelojesMasculinos = () => {
             <Rating />
       </Card.Body>
     </Card>
-          </Nav.Link>
+          </Link>
         
         ))}
         </div>
@@ -41,4 +43,9 @@ const RelojesMasculinos = () => {
     );
   };
   
-  export default RelojesMasculinos;
+  export default Smartwatch;
+
+
+
+
+

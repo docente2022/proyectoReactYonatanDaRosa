@@ -1,0 +1,86 @@
+{
+    "relojes": [
+        {
+            "id": 1,
+            "nombre": "Reloj Femenino 1",
+            "descripcion": "Reloj elegante para mujeres con correa de acero inoxidable.",
+            "imagen": "../../../public/assets/media/IMG-20230605-WA0034.jpg",
+            "precio": 299.99,
+            "genero": "femenino"
+          },
+          {
+            "id": 2,
+            "nombre": "Reloj Femenino 2",
+            "descripcion": "Reloj deportivo para mujeres con correa de silicona.",
+            "imagen": "../../../public/assets/media/IMG-20230605-WA0033.jpg",
+            "precio": 149.99,
+            "genero": "femenino"
+          },
+          {
+            "id": 3,
+            "nombre": "Reloj Femenino 3",
+            "descripcion": "Reloj de moda para mujeres con correa de cuero.",
+            "imagen": "../../../public/assets/media/IMG-20230605-WA0035.jpg",
+            "precio": 199.99,
+            "genero": "femenino"
+          },
+          {
+            "id": 4,
+            "nombre": "Reloj Femenino 4",
+            "descripcion": "Reloj elegante y minimalista para mujeres.",
+            "imagen": "../../../public/assets/media/IMG-20230605-WA0036.jpg",
+            "precio": 249.99,
+            "genero": "femenino"
+          },
+          {
+            "id": 5,
+            "nombre": "Reloj Femenino 5",
+            "descripcion": "Reloj de lujo para mujeres con correa de oro rosa.",
+            "imagen": "../../../public/assets/media/IMG-20230605-WA0037.jpg",
+            "precio": 999.99,
+            "genero": "femenino"
+          },
+          {
+            "id": 6,
+            "nombre": "Reloj Femenino 6",
+            "descripcion": "Reloj elegante con incrustaciones de diamantes para mujeres.",
+            "imagen": "../../../public/assets/media/IMG-20230605-WA0038.jpg",
+            "precio": 799.99,
+            "genero": "femenino"
+          },
+          {
+            "id": 7,
+            "nombre": "Reloj Femenino 7",
+            "descripcion": "Reloj digital deportivo para mujeres con correa de plástico.",
+            "imagen": "../../../public/assets/media/IMG-20230605-WA0039.jpg",
+            "precio": 79.99,
+            "genero": "femenino"
+          },
+          {
+            "id": 8,
+            "nombre": "Reloj Femenino 8",
+            "descripcion": "Reloj de diseño geométrico para mujeres con correa de metal.",
+            "imagen": "../../../public/assets/media/IMG-20230605-WA0040.jpg",
+            "precio": 149.99,
+            "genero": "femenino"
+          },
+          {
+            "id": 9,
+            "nombre": "Reloj Femenino 9",
+            "descripcion": "Reloj con esfera de cristal para mujeres con correa de tela.",
+            "imagen": "../../../public/assets/media/IMG-20230605-WA0041.jpg",
+            "precio": 129.99,
+            "genero": "femenino"
+          },
+          {
+            "id": 10,
+            "nombre": "Reloj Femenino 10",
+            "descripcion": "Reloj elegante y clásico para mujeres con correa de cuero.",
+            "imagen": "../../../public/assets/media/IMG-20230605-WA0042.jpg",
+            "precio": 199.99,
+            "genero": "femenino"
+          }
+    ]
+  }
+  
+  

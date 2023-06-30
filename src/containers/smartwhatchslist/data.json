@@ -1,0 +1,34 @@
+{
+    "relojes": [
+      {
+        "id":1,
+        "nombre": "Smartwatch",
+        "marca": "Samsung",
+        "precio": 199.99,
+        "descripcion": "Pantalla táctil AMOLED, resistente al agua, batería de larga duración. Compatible con iOS y Android.",
+        "imagen": [
+           "https://images.samsung.com/is/image/samsung/p6pim/ar/2208/gallery/ar-galaxy-watch5-44mm-sm-r910nzaaaro-thumb-533194248?$344_344_PNG$"
+        ]
+      },
+      {
+        "id":2,
+        "nombre": "Smartwatch 2",
+        "marca": "Motorola",
+        "precio": 149.99,
+        "descripcion": "Pantalla a color LCD, no resistente al agua, batería recargable. Compatible solo con Android.",
+        "imagen": [
+          "https://www.naldo.com.ar/medias/Method-701475-1-515Wx515H?context=bWFzdGVyfGltYWdlc3w2NzU0MHxpbWFnZS9qcGVnfGltYWdlcy9oNmYvaDk1Lzk2NzM5OTE5NDYyNzAuanBnfGY3MzA1MDA5OWFiNTM1ODgxNGJjMDdkNTE4MmI4NWI5ODZlOTMwMzliNzRjM2M5ZGQ5ZDQ5Y2YxNTU1MDRjNWI"
+        ]
+      },
+      {
+        "id":3,
+        "nombre": "Smartwatch 3",
+        "marca": "Apple",
+        "precio": 299.99,
+        "descripcion": "Pantalla táctil AMOLED, resistente al agua, batería de larga duración. Compatible con iOS y Android.",
+        "imagen": [
+          "https://http2.mlstatic.com/D_Q_NP_985887-MLA44963741853_022021-F.webp"
+        ]
+      }
+    ]
+  }

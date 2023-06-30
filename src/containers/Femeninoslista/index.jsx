@@ -4,9 +4,11 @@ import Card from 'react-bootstrap/Card';
 import '../../../src/index.css'
 import { Rating } from "@mui/material";
 import Nav from 'react-bootstrap/Nav';
-import relojesData from './relojes.json';
+import relojesData from './femenino.json';
 
-const RelojesMasculinos = () => {
+
+
+const TodosRelojesFemeninos = () => {
     const [relojes, setRelojes] = useState([]);
   
     useEffect(() => {
@@ -14,8 +16,8 @@ const RelojesMasculinos = () => {
     }, []);
   
     return (
-      <div className="relojes-container pt-5">
-        <h2 className="text-center pt-4 pb-4 text-bg-info">Relojes Masculinos destacados</h2>
+      <div className="relojes-container">
+        <h2 className="text-center pb">Relojes Femeninos</h2>
         <div className="relojes-grid">
         {relojes.map((reloj) => ( 
             <Nav.Link key={reloj.id}>
@@ -41,4 +43,9 @@ const RelojesMasculinos = () => {
     );
   };
   
-  export default RelojesMasculinos;
+  export default TodosRelojesFemeninos;
+
+
+
+
+
