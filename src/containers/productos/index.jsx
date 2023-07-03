@@ -5,6 +5,7 @@ import '../../../src/index.css'
 import { Rating } from "@mui/material";
 import Nav from 'react-bootstrap/Nav';
 import relojesData from './relojes.json';
+import Agregar from "../../componentes/boton";
 
 const RelojesMasculinos = () => {
     const [relojes, setRelojes] = useState([]);
@@ -20,7 +21,7 @@ const RelojesMasculinos = () => {
         {relojes.map((reloj) => ( 
             <Nav.Link key={reloj.id}>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={reloj.imagen} alt={reloj.nombre}/>
+                <Card.Img variant="top" src={reloj.imagen} height={300} alt={reloj.nombre}/>
                 <Card.Body>
                 <Card.Title>{reloj.nombre}</Card.Title>
                 <Card.Text>
@@ -29,7 +30,7 @@ const RelojesMasculinos = () => {
                 <Card.Text>
                 Precio: ${reloj.precio}
                 </Card.Text>
-            <Button variant="primary">comprar</Button>
+            <Agregar/>
             <Rating />
       </Card.Body>
     </Card>

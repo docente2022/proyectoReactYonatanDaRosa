@@ -13,25 +13,28 @@ const ProductosDestacados= () => {
   
     <Carousel className='destacados'>
       <div className='display-1 text-bg-danger text-center'>WOOOWW</div>
-      <div className='display-3 text-bg-info text-'> RELOJES MASCULINOS ON FIRE.</div>
+      <div className='display-3 text-bg-info text-center'> RELOJES ON FIRE.</div>
       {featuredProducts.map(product => (
         
-        // <div key={product.id}>
+        <div key={product.id}>
       
         <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
           src={product.image}
           alt={product.name}
+          height={400}
           />
         <Carousel.Caption>
           <h3>{product.name}</h3>
           <p>{product.descripcion}</p>
         </Carousel.Caption>
       </Carousel.Item>
-      
+      </div>
       ))}
+      <hr /> <hr /><hr /><hr /><hr />
     </Carousel>
+    
   );
 };
 

@@ -5,6 +5,7 @@ import '../../../src/index.css'
 import { Rating } from "@mui/material";
 import relojesData from './data.json';
 import { Link } from "react-router-dom";
+import Agregar from "../../componentes/boton";
 
 
 
@@ -17,12 +18,12 @@ const Smartwatch = () => {
   
     return (
       <div className="relojes-container">
-        <h2 className="text-center pb">TODOS LOS PRODUCTOS</h2>
+        <h2 className="text-center pb-4 pt-5 text-bg-info">SMARTWACHS</h2>
         <div className="relojes-grid">
         {relojes.map((reloj) => ( 
             <Link key={reloj.id}>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={reloj.imagen} alt={reloj.nombre}/>
+                <Card.Img variant="top"  height={300}src={reloj.imagen} alt={reloj.nombre}/>
                 <Card.Body>
                 <Card.Title>{reloj.nombre}</Card.Title>
                 <Card.Text>
@@ -31,7 +32,7 @@ const Smartwatch = () => {
                 <Card.Text>
                 Precio: ${reloj.precio}
                 </Card.Text>
-            <Button variant="primary">comprar</Button>
+            <Agregar/>
             <Rating />
       </Card.Body>
     </Card>

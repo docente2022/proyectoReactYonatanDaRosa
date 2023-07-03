@@ -1,10 +1,10 @@
 import React,{ useEffect, useState } from "react";
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import '../../../src/index.css'
 import { Rating } from "@mui/material";
 import Nav from 'react-bootstrap/Nav';
 import relojesData from './femenino.json';
+import Agregar from "../../componentes/boton";
 
 
 
@@ -22,7 +22,7 @@ const TodosRelojesFemeninos = () => {
         {relojes.map((reloj) => ( 
             <Nav.Link key={reloj.id}>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={reloj.imagen} alt={reloj.nombre}/>
+                <Card.Img variant="top" height={300} src={reloj.imagen} alt={reloj.nombre}/>
                 <Card.Body>
                 <Card.Title>{reloj.nombre}</Card.Title>
                 <Card.Text>
@@ -31,7 +31,7 @@ const TodosRelojesFemeninos = () => {
                 <Card.Text>
                 Precio: ${reloj.precio}
                 </Card.Text>
-            <Button variant="primary">comprar</Button>
+            <Agregar/>
             <Rating />
       </Card.Body>
     </Card>
