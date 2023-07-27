@@ -1,35 +1,32 @@
-
-import React from 'react';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Inicio from './pages/inicio';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import RelojesHombre from './pages/Relojes-Masculinos/Index';
 import Menu from './componentes/navbar';
 import PiePagina from './componentes/footer';
+import { CartProvider } from './context';
+import ItemListContainer from './containers/productos/itemlistcontainer';
+import ItemDetailContainer from "./containers/contenedorDetalleProducto/ItemDetailContainer"
+import Inicio from './pages/inicio';
+import Carrito from './pages/carritoDeCompra';
 import Contacto from './pages/contacto';
-import Relojesmujeres from './pages/relojes-femeninos';
-import SmartWatchs from './pages/smartwatchs';
-import Ofertas from './pages/ofertas';
-
+import Checkout from './componentes/checkout/index';
 
 function App() {
   return (
-    <BrowserRouter>
-    <Menu/>
-    <Routes>
-      <Route path="/" element={<Inicio/>} />
-      {/* <Route path="/item/:id" element={< />}/> */}
-      <Route path="/productosmasculinos" element={<RelojesHombre/>} />
-      <Route path="/productosfemeninos" element={<Relojesmujeres/>} />
-      <Route path="/contacto" element={<Contacto/>} />
-      <Route path="/smartwatchs" element={<SmartWatchs/>} />
-      <Route path="/ofertas" element={<Ofertas/>} />
-
-    </Routes>
-    <PiePagina/>
-    {/* Aquí iría el resto de tu aplicación */}
-  </BrowserRouter>
+    <CartProvider>
+      <BrowserRouter>
+        <Menu/>
+        <Routes>
+          <Route path="/" element={<Inicio />} />
+          <Route path="/item/:id" element={<ItemDetailContainer />}/>
+          <Route path="/productos" element={<ItemListContainer />} />
+          <Route path="/productos/:categoria" element={<ItemListContainer />} />
+          <Route path="/contacto" element={<Contacto/>} />
+          <Route path="/carrito" element={<Carrito/>} />
+          <Route path="/checkout" element={<Checkout />}/>
+        </Routes>
+        <PiePagina/>
+      </BrowserRouter>
+    </CartProvider>
 );
 };
 

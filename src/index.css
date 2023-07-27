@@ -1,4 +1,11 @@
-
+@import url("./Estilos/animacionTitulo.css");
+@import url("./Estilos/loader.css");
+@import url("./Estilos/card.css");
+@import url("./Estilos/formularios.css");
+@import url("./Estilos/footer.css");
+@import url("./Estilos/detalleDeProducto.css");
+@import url("./Estilos/container.css");
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Black+Ops+One&family=Bungee+Spice&family=Creepster&family=Hanalei&family=Hind:wght@300;400;500;600;700&family=Quantico:ital,wght@1,700&family=Source+Code+Pro&display=swap');
 
 body {
   margin: 0;
@@ -8,84 +15,31 @@ body {
 .menu{
   font-family: 'Source Code Pro', monospace;
 }
-h1, h2{
-  font-family: 'Creepster', cursive;
-  padding-bottom: 10px;
-  padding-top: 5px;
-}
-.relojes-container {
-  max-width: 1200px; /* Ajusta el ancho máximo según tus necesidades */
-  margin: 0 auto;
-  padding: 20px;
-}
 
-.relojes-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columnas por fila */
-  gap: 20px; /* Espacio entre las tarjetas */
-}
 
-.destacados {
-
-  justify-content: center;
-  align-items: center;
-  max-width: 100%;
-  width: 1000px;
-  height: 700px;
-  margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.destacados img {
-  max-width: 100%;
-  height: 75%;
-}
-
-footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #f8f8f8;
-  padding: 20px;
-}
-
-.footer-column {
-  flex-basis: 33.33%;
-  margin-bottom: 10px;
-  font-family: 'Source Code Pro', monospace;
-}
-
-.rights {
-  text-align: left;
-}
-
-.contact {
+/* Estilos para el título principal */
+.main-title {
+  font-family: 'Bungee Spice', cursive;
   text-align: center;
-}
-
-.share {
-  text-align: center;
-}
-
-.social-links {
-  display: flex;
-  justify-content:flex-end;
+  font-size: 70px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 
+@media (max-width: 768px) {
+  /* Agrega aquí los estilos específicos para dispositivos móviles */
+  .main-title {
+    font-size: 40px; /* Por ejemplo, ajustar el tamaño del título para dispositivos móviles */
+  }
 
-.social-link:hover {
-  color: #333333;
-  border-radius: 80%;
+  /* Agrega más estilos responsivos para dispositivos móviles si es necesario */
 }
 
-
-.ver-todos-link{
-  padding-top: 5px;
-}
-
-.a {
-  text-decoration: none;
-}
+/* Media Query para dispositivos con un ancho mayor a 768px (dispositivos de escritorio) */
+@media (min-width: 769px) {
+  /* Agrega aquí los estilos específicos para dispositivos de escritorio */
+  .main-title {
+    font-size: 70px; /* Por ejemplo, mantener el tamaño del título para dispositivos de escritorio */
+  }}

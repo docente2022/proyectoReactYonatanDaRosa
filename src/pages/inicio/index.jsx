@@ -1,18 +1,26 @@
 import React from "react";
-import RelojesMasculinos from "../../containers/productos";
+import ItemListContainer from "../../containers/productos/itemlistcontainer"
 import ProductosDestacados from "../../componentes/carrusel";
-import RelojesFemeninosHome from "../../containers/Femeninoslista/relojesFemHome";
-import SmartWatchs from "../smartwatchs";
 
 
 
 const Inicio= ()=>{
     return(
       <div>
+        <div className="wrapper">
+          <svg>
+            <text x="50%" y="50%" dy=".35em" textAnchor="middle">
+           GEODA
+           </text>
+          </svg>
+        </div>
+        <div className="glitch-wrapper container p-2">
+   <div className="glitch" data-text="ENCONTRÁ  AQUÍ TU RELOJ FAVORITO">ENCONTRÁ  AQUÍ TU RELOJ FAVORITO</div>
+</div>
+
+    
         <ProductosDestacados/>
-        <RelojesMasculinos/>
-        <RelojesFemeninosHome/>
-        <SmartWatchs/>
+        <ItemListContainer/>
       </div>
     )
 }

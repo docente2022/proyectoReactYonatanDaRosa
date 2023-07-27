@@ -9,12 +9,13 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 import BarraDeBusqueda from '../barraBusqueda';
 import { Link } from 'react-router-dom';
+import { Divider } from '@mui/material';
 
 
 
 const Menu=()=> {
   
-  const cart=3;
+  
   const handleSearch = (searchTerm) => {
     // Lógica para procesar la búsqueda
     console.log('Búsqueda realizada:', searchTerm);
@@ -26,7 +27,7 @@ const Menu=()=> {
       <Container>
        <Link to={"/"}><Navbar.Brand className='p-1 pe-5'>
           <img
-              alt=""
+              alt="logo"
               src="./logo192.png"
               width="100"
               height="100"
@@ -37,24 +38,23 @@ const Menu=()=> {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto ">
-            <Link to="/"className="a " >INICIO</Link>
+            <Link to="/"className="a ms-2 me-2 p-2" >INICIO</Link>
             <NavDropdown title="CATEGORIA" id="collasible-nav-dropdown" className='flex'>
-              <Link to={"/productosmasculinos"} className='text-center a '> <li>RELOJES MASCULINOS</li></Link>
-              <Link to={"/productosfemeninos"} className='text-center a'>
+              <Link to={"/productos/Masculino"} className='text-center m-1 a   '> <li>RELOJES MASCULINOS</li></Link>
+              <Divider/>
+              <Link to={"/productos/Femenino"} className='text-center a m-1'>
                <li>RELOJES FEMENINOS</li>
               </Link>
-              <Link to={"/smartwatchs"} className="text-center a"> <li>SMARTWATCHS</li> </Link >
-              <NavDropdown.Divider />
-              <Link to={"/ofertas"} className='text-center a'>
-                OFERTAS
-              </Link>
+              <Divider/>
+              <Link to={"/productos/Smartwatch"} className="text-center a m-1"> <li>SMARTWATCHS</li> </Link >
+              
             </NavDropdown>
-            <Link to={"/contacto"} className="pe-5 a"> CONTACTO</Link>
-            <BarraDeBusqueda className="justify-content-center"  onSearch={handleSearch} />
+            <Link to={"/contacto"} className=" a ms-2 me-2 p-2"> CONTACTO</Link>
+            <BarraDeBusqueda className=" ms-5"  onSearch={handleSearch} />
           </Nav>
 
-          <Link href="http://" className='pe-4'><CartWidget cartQuantity={cart} />  </Link>
-          <Link href="http://" className='pe-5'> <AccountCircleIcon/>    </Link>
+          <CartWidget/>
+          <Link href="*" className='pe-5'> <AccountCircleIcon/>    </Link>
          
           
         

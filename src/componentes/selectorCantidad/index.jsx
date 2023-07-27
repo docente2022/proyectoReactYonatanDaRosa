@@ -1,26 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 
-const Contador = ({ cantidadInicial, onCantidadChange }) => {
-  const [cantidad, setCantidad] = useState(cantidadInicial);
-
-  const decrementar = () => {
-    if (cantidad > 1) {
-      setCantidad(cantidad - 1);
-      onCantidadChange(cantidad - 1);
-    }
-  };
-
-  const incrementar = () => {
-    setCantidad(cantidad + 1);
-    onCantidadChange(cantidad + 1);
-  };
+const Contador= ( {cantidad, handleRestar, handleSumar, handleAgregar} ) => {
 
   return (
-    <div className="contador">
-      <button onClick={decrementar}>-</button>
-      <span>{cantidad}</span>
-      <button onClick={incrementar}>+</button>
+    <div>
+      
+      <div className="item-count  ps-5 ">  
+            <button className="btn btn-info"  onClick={handleSumar}>+</button>
+            <p className="p-2 m-2" >{cantidad}</p>
+            <button className="btn btn-info" onClick={handleRestar}>-</button>
+        </div>
+        <button className="agregar-al-carrito btn btn-outline-success m-5" onClick={handleAgregar}>Agregar al carrito</button>
     </div>
+   
   );
 };
 

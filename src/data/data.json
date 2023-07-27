@@ -1,0 +1,290 @@
+{
+    "productos": [
+     
+      {
+        "id": 1,
+        "imagen": "https://importadoracentral.com.ar/wp-content/uploads/2022/04/L1588-18.jpg",
+        "titulo": "Reloj elegante para dama",
+        "descripcion": "Reloj elegante con correa de cuero y detalles dorados.",
+        "stock": 10,
+        "categoria": "femenino",
+        "tipo": "clásico",
+        "precio": 49.99
+      },
+      {
+        "id": 4,
+        "imagen": "https://casatagger.com.ar/wp-content/uploads/2023/03/T-CARMELA-02-F.jpg",
+        "titulo": "Reloj minimalista para dama",
+        "descripcion": "Reloj de diseño minimalista con correa de malla.",
+        "stock": 20,
+        "categoria": "femenino",
+        "tipo": "clásico",
+        "precio": 39.99
+      },
+      {
+        "id": 6,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkAnNG2iJlfj2iKMZYZhIe3YCeQ6czmXF0ovWgRmr2fUKN3YM20p_1UlHJYhSR2m33rqU&usqp=CAU",
+        "titulo": "Smartwatch elegante para dama",
+        "descripcion": "Smartwatch con pantalla táctil y diseño elegante.",
+        "stock": 12,
+        "categoria": "femenino",
+        "tipo": "smartwatch",
+        "precio": 89.99
+      },
+      {
+        "id": 9,
+        "imagen": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1648305475-561451-i1600-1402-001-100-0000-light-reloj-g-timeless-27mm-1648305403.jpg?crop=0.8xw:1xh;center,top&resize=980:*",
+        "titulo": "Reloj elegante para dama",
+        "descripcion": "Reloj elegante con correa de cuero y detalles plateados.",
+        "stock": 18,
+        "categoria": "femenino",
+        "tipo": "clásico",
+        "precio": 44.99
+      },
+      {
+        "id": 12,
+        "imagen": "https://d2r9epyceweg5n.cloudfront.net/stores/966/070/products/diseno-sin-titulo-741-8ea7d9f229c7c7e3f516669786104174-1024-1024.png",
+        "titulo": "Reloj minimalista para dama",
+        "descripcion": "Reloj de diseño minimalista con correa de cuero.",
+        "stock": 15,
+        "categoria": "femenino",
+        "tipo": "clásico",
+        "precio": 34.99
+      },
+      {
+        "id": 17,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNN-JYaMpYa5QnGsSqUIJaj4ZE9zfJkQJIslUaR9D-9loG907EbaUr3eAVxd4-Xcg7I0o&usqp=CAU",
+        "titulo": "Reloj elegante para dama",
+        "descripcion": "Reloj elegante con correa de malla y esfera negra.",
+        "stock": 22,
+        "categoria": "femenino",
+        "tipo": "clásico",
+        "precio": 41.99
+      },
+      {
+        "id": 21,
+        "imagen": "https://cdn.shopify.com/s/files/1/0555/7741/1929/products/da34a130-966c-11ed-bca5-3f5825444ca8.jpg?v=1680651748",
+        "titulo": "Reloj deportivo para dama",
+        "descripcion": "Reloj deportivo con correa de silicona y resistente al agua.",
+        "stock": 10,
+        "categoria": "femenino",
+        "tipo": "deportivo",
+        "precio": 47.99
+      },
+      {
+        "id": 26,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRh9YQdLYGNb30uNjXCGP9AocLdUB85Hc5Og&usqp=CAU",
+        "titulo": "Reloj clásico para dama",
+        "descripcion": "Reloj de estilo clásico con correa de cuero.",
+        "stock": 30,
+        "categoria": "femenino",
+        "tipo": "clásico",
+        "precio": 52.99
+      },
+      {
+        "id": 28,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBv-JQq7xvnXcMJEeoTvSJeIhlL3ZT3iNv0ul_b2uDKKFk8_I0Jx_QZ3ge0oS9Tp3zKXs&usqp=CAU",
+        "titulo": "Reloj minimalista para dama",
+        "descripcion": "Reloj de diseño minimalista con correa de malla.",
+        "stock": 21,
+        "categoria": "femenino",
+        "tipo": "clásico",
+        "precio": 39.99
+      },
+      {
+        "id": 30,
+        "imagen": "https://images.fravega.com/f300/4d241bb15e9b8893805707b94e1a33db.jpg.webp",
+        "titulo": "Smartwatch elegante para dama",
+        "descripcion": "Smartwatch con pantalla táctil y detalles en oro rosa.",
+        "stock": 11,
+        "categoria": "femenino",
+        "tipo": "smartwatch",
+        "precio": 92.99
+      },
+  
+      
+      {
+        "id": 2,
+        "imagen": "https://hips.hearstapps.com/hmg-prod/images/reloj-hombre-omega-seamaster-300-1621435252.jpg?resize=480:*",
+        "titulo": "Reloj clásico para caballero",
+        "descripcion": "Reloj de estilo clásico con correa de acero inoxidable.",
+        "stock": 15,
+        "categoria": "masculino",
+        "tipo": "clásico",
+        "precio": 59.99
+      },
+      {
+        "id": 5,
+        "imagen": "https://d2r9epyceweg5n.cloudfront.net/stores/974/888/products/02tmdcpr004vd_tdig311-0f960447958451315715919686262571-1024-1024.jpg",
+        "titulo": "Reloj deportivo para caballero",
+        "descripcion": "Reloj deportivo con cronómetro y pulsómetro integrados.",
+        "stock": 8,
+        "categoria": "masculino",
+        "tipo": "deportivo",
+        "precio": 69.99
+      },
+      {
+        "id": 7,
+        "imagen": "https://www.flowwebnr.com/cdn/shop/products/1_9cf9f2d0-78c5-465f-befd-1c6e4a4fd9ef_533x.jpg?v=1680303931",
+        "titulo": "Reloj de lujo para caballero",
+        "descripcion": "Reloj de lujo con detalles en oro y correa de cuero genuino.",
+        "stock": 3,
+        "categoria": "masculino",
+        "tipo": "clásico",
+        "precio": 299.99
+      },
+      {
+        "id": 10,
+        "imagen": "https://stylewatchio.vtexassets.com/arquivos/ids/229929-500-auto?v=1776118419&width=500&height=auto&aspect=true",
+        "titulo": "Reloj clásico para caballero",
+        "descripcion": "Reloj de estilo clásico con correa de cuero y esfera blanca.",
+        "stock": 25,
+        "categoria": "masculino",
+        "tipo": "clásico",
+        "precio": 54.99
+      },
+      {
+        "id": 13,
+        "imagen": "https://http2.mlstatic.com/D_Q_NP_871177-MLA47615183726_092021-F.webp",
+        "titulo": "Reloj deportivo para caballero",
+        "descripcion": "Reloj deportivo con correa de silicona y resistente al agua.",
+        "stock": 10,
+        "categoria": "masculino",
+        "tipo": "deportivo",
+        "precio": 64.99
+      },
+      {
+        "id": 15,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYhISZ9KFbt9dDSo6Re8fnA7tySdiigLEz3ugVb7_cvhrzfWzxJxNLxWaqfKr4BQoxTLQ&usqp=CAU",
+        "titulo": "Reloj de lujo para caballero",
+        "descripcion": "Reloj de lujo con cronógrafo y correa de acero.",
+        "stock": 4,
+        "categoria": "masculino",
+        "tipo": "clásico",
+        "precio": 249.99
+      },
+      {
+        "id": 19,
+        "imagen": "https://hips.hearstapps.com/hmg-prod/images/iowodoo-reloj-deportivo-1633007078.jpg",
+        "titulo": "Smartwatch deportivo para caballero",
+        "descripcion": "Smartwatch con GPS y monitor de ritmo cardíaco.",
+        "stock": 6,
+        "categoria": "masculino",
+        "tipo": "smartwatch",
+        "precio": 114.99
+      },
+      {
+        "id": 23,
+        "imagen": "https://m.media-amazon.com/images/I/41OQJZ4ZXOL.jpg",
+        "titulo": "Reloj de lujo para caballero",
+        "descripcion": "Reloj de lujo con correa de cuero y esfera negra.",
+        "stock": 5,
+        "categoria": "masculino",
+        "tipo": "clásico",
+        "precio": 279.99
+      },
+      {
+        "id": 26,
+        "imagen": "url_imagen_26.jpg",
+        "titulo": "Reloj clásico para caballero",
+        "descripcion": "Reloj de estilo clásico con correa de cuero.",
+        "stock": 30,
+        "categoria": "masculino",
+        "tipo": "clásico",
+        "precio": 52.99
+      },
+      {
+        "id": 29,
+        "imagen": "https://images.fravega.com/f300/5208ac62e54b135226624f113ad4ec80.jpg",
+        "titulo": "Reloj deportivo para caballero",
+        "descripcion": "Reloj deportivo con cronógrafo y correa de silicona.",
+        "stock": 14,
+        "categoria": "masculino",
+        "tipo": "deportivo",
+        "precio": 59.99
+      },
+  
+   
+      {
+        "id": 3,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_724565-MLA51465660597_092022-O.webp",
+        "titulo": "Smartwatch deportivo unisex",
+        "descripcion": "Smartwatch resistente al agua con múltiples funciones deportivas.",
+        "stock": 5,
+        "categoria": "unisex",
+        "tipo": "smartwatch",
+        "precio": 79.99
+      },
+      {
+        "id": 11,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdXOEPkVM9nuhGrXVr1A5e7sycKnXpyhB2sg&usqp=CAU",
+        "titulo": "Smartwatch deportivo unisex",
+        "descripcion": "Smartwatch resistente al agua con monitor de ritmo cardíaco.",
+        "stock": 7,
+        "categoria": "unisex",
+        "tipo": "smartwatch",
+        "precio": 74.99
+      },
+      {
+        "id": 17,
+        "imagen": "https://m.media-amazon.com/images/I/51gEfnMWDUL._AC_UF1000,1000_QL80_.jpg",
+        "titulo": "Smartwatch deportivo unisex",
+        "descripcion": "Smartwatch con funciones de salud y deporte.",
+        "stock": 9,
+        "categoria": "unisex",
+        "tipo": "smartwatch",
+        "precio": 79.99
+      },
+      {
+        "id": 20,
+        "imagen": "https://roxxoshop.com/cdn/shop/products/Sumergible_1024x1024.png?v=1597548027",
+        "titulo": "Smartwatch deportivo unisex",
+        "descripcion": "Smartwatch con monitor de sueño y notificaciones.",
+        "stock": 5,
+        "categoria": "unisex",
+        "tipo": "smartwatch",
+        "precio": 88.99
+      },
+      {
+        "id": 25,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_908505-MLA54058934753_022023-O.webp",
+        "titulo": "Smartwatch elegante unisex",
+        "descripcion": "Smartwatch con pantalla táctil y correa de acero.",
+        "stock": 16,
+        "categoria": "unisex",
+        "tipo": "smartwatch",
+        "precio": 89.99
+      },
+      {
+        "id": 31,
+        "imagen": "https://stylewatch.vtexassets.com/arquivos/ids/202551/Reloj_Colmi_COSKY5SB-1.jpg?v=637711340796700000",
+        "titulo": "Smartwatch elegante unisex",
+        "descripcion": "Smartwatch con pantalla táctil y correa de cuero genuino.",
+        "stock": 11,
+        "categoria": "unisex",
+        "tipo": "smartwatch",
+        "precio": 92.99
+      },
+      {
+        "id": 35,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGSOXRCpsZemfqsn7_JBWA2utzpShmomEyWA&usqp=CAU",
+        "titulo": "Smartwatch deportivo unisex",
+        "descripcion": "Smartwatch con monitor de sueño y notificaciones inteligentes.",
+        "stock": 6,
+        "categoria": "unisex",
+        "tipo": "smartwatch",
+        "precio": 84.99
+      },
+      {
+        "id": 39,
+        "imagen": "https://xhobbies.co/cdn/shop/products/reloj-inteligente-pulsera-deportiva-con-audifonos-inalambricos-m1-2.jpg?v=1681508947&width=1445",
+        "titulo": "Smartwatch deportivo unisex",
+        "descripcion": "Smartwatch con funciones de salud y deporte.",
+        "stock": 9,
+        "categoria": "unisex",
+        "tipo": "smartwatch",
+        "precio": 79.99
+      }
+    ]
+  }
+  
