@@ -55,7 +55,7 @@ const Checkout = () => {
             <input type="email" placeholder="Ingresá tu e-mail" {...register("email")} />
             <input type="phone" placeholder="Ingresá tu teléfono" {...register("telefono")} />
 
-            <button className="enviar" type="submit">Comprar</button>
+            <button className="btn btn-info pulse" type="submit">COMPRAR</button>
 
         </form>
     </div>

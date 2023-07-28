@@ -50,11 +50,11 @@ const Menu=()=> {
               
             </NavDropdown>
             <Link to={"/contacto"} className=" a ms-2 me-2 p-2"> CONTACTO</Link>
-            <BarraDeBusqueda className=" ms-5"  onSearch={handleSearch} />
           </Nav>
 
-          <CartWidget/>
-          <Link href="*" className='pe-5'> <AccountCircleIcon/>    </Link>
+            <BarraDeBusqueda className="pe-5 "  onSearch={handleSearch} />
+          <CartWidget className=" ps-5"/>
+      
          
           
         

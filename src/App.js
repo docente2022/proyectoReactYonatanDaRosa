@@ -9,6 +9,7 @@ import Inicio from './pages/inicio';
 import Carrito from './pages/carritoDeCompra';
 import Contacto from './pages/contacto';
 import Checkout from './componentes/checkout/index';
+import PageNotFound from './pages/404';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/contacto" element={<Contacto/>} />
           <Route path="/carrito" element={<Carrito/>} />
           <Route path="/checkout" element={<Checkout />}/>
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
         <PiePagina/>
       </BrowserRouter>

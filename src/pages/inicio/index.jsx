@@ -14,7 +14,7 @@ const Inicio= ()=>{
            </text>
           </svg>
         </div>
-        <div className="glitch-wrapper container p-2">
+        <div className="glitch-wrapper container p-2 main-title">
    <div className="glitch" data-text="ENCONTRÁ  AQUÍ TU RELOJ FAVORITO">ENCONTRÁ  AQUÍ TU RELOJ FAVORITO</div>
 </div>
 

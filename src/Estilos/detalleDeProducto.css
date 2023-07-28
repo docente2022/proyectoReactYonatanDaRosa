@@ -1,5 +1,6 @@
 /* Estilos generales */
 .detalle {
+  font-family: 'Bruno Ace SC', cursive; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,8 +43,10 @@
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
-  .producto-detalle {
-    flex-direction: column; /* Cambia el diseño a una sola columna en dispositivos móviles */
+  .producto-detalle  {
+    width: auto;
+    flex-direction: column; 
+    /* Cambia el diseño a una sola columna en dispositivos móviles */
   }
 
   .producto-detalle img {
@@ -53,7 +56,8 @@
   }
 
   .producto-detalle > div {
-    width: 100%; /* El contenido de texto ocupará todo el ancho disponible */
+    width: 100%; 
+    text-align: center;/* El contenido de texto ocupará todo el ancho disponible */
   }
 
   .producto-detalle h3.titulo {

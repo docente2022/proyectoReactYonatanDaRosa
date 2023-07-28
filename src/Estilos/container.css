@@ -26,7 +26,7 @@
   }
   /* Estilos para el contenedor principal */
   .containerCarrito {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Bruno Ace SC', cursive; 
     max-width: 600px; /* Ancho máximo del contenedor */
     margin: 0 auto; /* Centrar el contenido horizontalmente */
     padding: 20px;

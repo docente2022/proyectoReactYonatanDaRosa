@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -10,7 +11,7 @@ footer {
   .footer-column {
     flex-basis: 33.33%;
     margin-bottom: 10px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Bruno Ace SC', cursive;
   }
   
   .rights {
@@ -46,4 +47,9 @@ footer {
     text-decoration: none;
   }
   
-  
+  @media (max-width: 640px){
+    footer{
+      font-size: 10px;
+    text-align: center;
+    }
+  }

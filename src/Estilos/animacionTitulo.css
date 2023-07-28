@@ -24,49 +24,52 @@ svg text {
 	}
 }
 
-.wrapper {background-color: #f4f0f0};
+.wrapper {background-color: #cfc0b2};
 
 
-
+/* 
 .glitch-wrapper {
+	margin: 0;
+	padding: 0;
 	width: 100%;
 	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	background-color: #76e447;
+	background-color: #0c0b0b;
 	
  }
  
  .glitch {
+	font-family: "Russo One", sans-serif;
+	background-color: #0c0b0b;
 	position: relative;
 	font-size: 48px;
 	font-weight: bold;
-	color: #e5ef4e;
+	color:rgb(223, 212, 196);
 	letter-spacing: 3px;
 	z-index: 1;
  }
  
  .glitch:before,
  .glitch:after {
-	display: block;
+	display: flexbox;
 	content: attr(data-text);
 	position: absolute;
 	top: 0;
 	left: 0;
 	opacity: 0.8;
  }
- 
  .glitch:before {
 	animation: glitch-it 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
-	color: #14030A;
+	color: #c91616;
 	z-index: -1;
  }
  
  .glitch:after {
 	animation: glitch-it 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
-	color: #000000;
+	color: #e9e925;
 	z-index: -2;
  }
  
@@ -89,7 +92,7 @@ svg text {
 	to {
 	   transform: translate(0);
 	}
- }
+ } */
 
  .zoom{
 	/* Aumentamos la anchura y altura durante 2 segundos */

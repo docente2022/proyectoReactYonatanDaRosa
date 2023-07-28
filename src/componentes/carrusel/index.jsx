@@ -10,19 +10,19 @@ const ProductosDestacados= () => {
   ];
 
   return (
-    <Carousel className='container pb-3 pt-3'>
+    <Carousel className='container  pb-3 pt-3'>
       {images.map(image => (
         <Carousel.Item key={image.id}>
           <img
-            className="d-block w-100"
+            className="flex w-100 h-auto"
             src={image.image}
             alt={image.name}
-            height={600}
+            height={500}
           />
-          <Carousel.Caption>
+          {/* <Carousel.Caption className=' h-auto w-auto'>
             <h3>{image.name}</h3>
             <p>{image.descripcion}</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
       ))}
     </Carousel>

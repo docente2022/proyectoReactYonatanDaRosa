@@ -11,10 +11,10 @@ const FormContacto = () => {
   return (
     
       <div>
-        <h1 className="text-center formu">DEJANOS UN MENSAJE</h1>
+        <h1 className="text-center formu main-title">DEJANOS UN MENSAJE</h1>
          <div className="container contacto">
         <form className="formulario" onSubmit={handleSubmit(enviar)}>
-            <h2 className="form-titulo">Contacto</h2>
+            <h2 className="form-titulo main-title">Contacto</h2>
             <input type="text" placeholder="Ingresá tu nombre" {...register("nombre")} />
             <input type="email" placeholder="Ingresá tu e-mail" {...register("email")} />
             <input type="phone" placeholder="Ingresá tu teléfono" {...register("telefono")} />
