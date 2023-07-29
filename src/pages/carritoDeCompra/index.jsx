@@ -3,13 +3,12 @@ import { CartContext } from '../../context'
 import { Link } from 'react-router-dom';
 import DeleteIcon from '@mui/icons-material/Delete';
 import SentimentVeryDissatisfiedSharpIcon from '@mui/icons-material/SentimentVeryDissatisfiedSharp';
+
 const Carrito = () => {
 
-    const { carrito, precioTotal, vaciarCarrito,eliminarProducto } = useContext(CartContext);
+    const { carrito, precioTotal,eliminarProducto } = useContext(CartContext);
 
-    const handleVaciar = () => {
-        vaciarCarrito();
-    }
+  
 
   return (
     <div className=" containerCarrito pb-4 border-success border">
@@ -38,24 +37,18 @@ const Carrito = () => {
             carrito.length > 0 ?
             <>
                 <h2> Total Carrito: ${precioTotal()}</h2>
-                <button className='btn pulse m-2' onClick={handleVaciar}>Vaciar</button>
-               <Link to={"/checkout"}><button className="btn-finalizar-compra pulse btn  m-2">Finalizar Compra</button></Link>
+                <Link to={"/checkout"}><button className="btn-finalizar-compra pulse btn  m-2">Finalizar Compra</button></Link>
                 <Link to={"/"}> <button className='btn pulse '>Seguir Comprando</button></Link>
             </> :
             <> 
             <div>
                 <h2>El carrito está vacío :(</h2>
-                <SentimentVeryDissatisfiedSharpIcon className=' w-50 h-50'/>
+                <SentimentVeryDissatisfiedSharpIcon className=' w-25 h-25'/>
             </div>
-            
-
-            <Link to={"/"}> <button className=' fs-6 btn  m-3 pulse border-black  '>Volver a Inicio</button></Link>
-            <Link to={"/Masculinos"}> <button className=' fs-6  pulse btn border-black  m-3'>Relojes Masculinos</button></Link>
-            <Link to={"/Femeninos"}> <button className=' fs-6 btn border-black  m-3 pulse'> Relojes Femeninos</button></Link> 
-            <Link to={"/"}> <button className=' fs-6 btn pulse border-black m-3'>Relojes Smartwatch</button></Link>
-            
-
-                 
+                <Link to={"/"}> <button className=' fs-6 btn  m-3 pulse border-black  '>Volver a Inicio</button></Link>
+                <Link to={"/Masculinos"}> <button className=' fs-6  pulse btn border-black  m-3'>Relojes Masculinos</button></Link>
+                <Link to={"/Femeninos"}> <button className=' fs-6 btn border-black  m-3 pulse'> Relojes Femeninos</button></Link> 
+                <Link to={"/"}> <button className=' fs-6 btn pulse border-black m-3'>Relojes Smartwatch</button></Link>
             </>
                
         

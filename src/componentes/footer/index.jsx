@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 
 const PiePagina= ()=>{
     return (
-        <footer>
+        <footer className="w-auto h-auto">
           <div className="footer-column">
             <p className="rights">© 2023 Todos los derechos reservados</p>
           </div>

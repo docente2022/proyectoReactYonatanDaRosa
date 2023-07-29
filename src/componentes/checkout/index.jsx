@@ -40,14 +40,14 @@ const Checkout = () => {
                 <h1 className="main-title">Muchas gracias por tu compra</h1>
                 <p>En breve recibirás un E-mail con la confirmacion de la compra. </p>
                 <p>Tu número de pedido es: {pedidoId}</p>
-                <FaFaceLaughWink />
-                <Link to={"/"}> <HomeIcon/></Link>
+                <FaFaceLaughWink className='w-25 h-25' />
+                <Link to={"/"}> <HomeIcon className='p-5'/></Link>
             </div>
         )
     }
 
   return (
-    <div className="container">
+    <div className="container pb-5">
         <h1 className="main-title">Finalizar compra</h1>
         <form className="formulario" onSubmit={handleSubmit(comprar)}>
 
@@ -55,7 +55,7 @@ const Checkout = () => {
             <input type="email" placeholder="Ingresá tu e-mail" {...register("email")} />
             <input type="phone" placeholder="Ingresá tu teléfono" {...register("telefono")} />
 
-            <button className="btn btn-info pulse" type="submit">COMPRAR</button>
+            <button className="btn btn-info pulse border-black" type="submit">COMPRAR</button>
 
         </form>
     </div>

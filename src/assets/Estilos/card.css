@@ -14,7 +14,10 @@
                 23px 0 20px -23px rgba(0, 0, 0, .8),
                 inset 0 0 40px rgba(0, 0, 0, .1);
   }
-
+.cardImage{
+  width: 100px;
+  height: 300px;
+}
   /* Estilos para las tarjetas en dispositivos de escritorio */
 @media (max-width: 600px) {
   .tarjetas .card {

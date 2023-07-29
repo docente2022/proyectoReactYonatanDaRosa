@@ -23,7 +23,7 @@ const BarraDeBusqueda = ({ onSearch }) => {
               onChange={handleInputChange}
               aria-label="Search"
             />
-            <button className='btn pulse border-black'>Buscar</button>
+            <button className='btn pulse border-black me-5'>Buscar</button>
           </Form>
   );
 };

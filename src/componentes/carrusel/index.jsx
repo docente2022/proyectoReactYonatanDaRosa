@@ -4,9 +4,9 @@ import Carousel from 'react-bootstrap/Carousel';
 const ProductosDestacados= () => {
   // Array de productos destacados
   const images= [
-    { id: 1, name: 'Relojes elegante', image: 'https://i.blogs.es/c25705/relojes-inteligentes/450_1000.jpg', descripcion:"Los mas Fachero del mercado" },
-    { id: 2, name: 'Relojes deportivo', image: 'https://i.blogs.es/6be029/huawei-relojes/840_560.jpg', descripcion:"Los mas Fachero del mercado"},
-    { id: 3, name: 'Relojes clásico', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaRmTXA1cTJSlpGH3h7JKDlZtUUYgvDHHLhxbgQYY9g5TB57mhPFMMY4lZltTMMY0kH-I&usqp=CAU', descripcion:"Los mas Fachero del mercado"},
+    { id: 1, name: 'Relojes elegante', image: 'https://images.pexels.com/photos/9878300/pexels-photo-9878300.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', descripcion:"Los mas Fachero del mercado" },
+    { id: 2, name: 'Relojes deportivo', image: 'https://images.pexels.com/photos/277319/pexels-photo-277319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', descripcion:"Los mas Fachero del mercado"},
+    { id: 3, name: 'Relojes clásico', image: 'https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', descripcion:"Los mas Fachero del mercado"},
   ];
 
   return (

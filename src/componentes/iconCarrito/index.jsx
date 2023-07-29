@@ -9,7 +9,7 @@ const CartWidget = () => {
   const {cantidadEnCarrito}= useContext(CartContext);
 
   return (
-    <IconButton>
+    <IconButton className='ms-5'>
         <Badge badgeContent={cantidadEnCarrito()} color="primary">
            <Link to={"/carrito"}> <ShoppingCartIcon htmlColor='#002884' /></Link> 
         </Badge>

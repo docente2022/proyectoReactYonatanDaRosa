@@ -1,4 +1,5 @@
 import { createContext, useEffect, useState } from "react";
+import Swal from 'sweetalert2'
 
 
 export const CartContext = createContext();
@@ -21,12 +22,53 @@ export const CartProvider = ({children}) => {
             nuevoCarrito.push(itemAgregado);
         }
         setCarrito(nuevoCarrito);
-        alert ("Producto agregado al carrito")
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'El Producto se ha agregado al carrito',
+            showConfirmButton: false,
+            timer: 1500
+          })
     }
     const eliminarProducto = (productId) => {
-        const updatedCart = carrito.filter((item) => item.id !== productId);
-        setCarrito(updatedCart);
-        alert("Producto eliminado del carrito");
+        const updatedCart = carrito.filter((item) => item.id !== productId)
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+              confirmButton: 'btn btn-success',
+              cancelButton: 'btn btn-danger'
+            },
+            buttonsStyling: false
+          })
+          
+          swalWithBootstrapButtons.fire({
+            title: '¿Estás seguro que quieres eliminar el producto?',
+            text: "Esta acción eliminará el producto del carrito,",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'SI,ELIMÍNALO !!!',
+            cancelButtonText: 'NO, CANCELA!',
+            reverseButtons: true
+          }).then((result) => {
+            if (result.isConfirmed) {
+              swalWithBootstrapButtons.fire(
+                '¡BORRADO!',
+                'El Producto ha sido eliminado del carrito',
+                'success',
+              ) 
+              setCarrito(updatedCart);
+              
+            } else if (
+              /* Read more about handling dismissals below */
+              result.dismiss === Swal.DismissReason.cancel
+            ) {
+              swalWithBootstrapButtons.fire(
+                'CANCELADO',
+                'El producto sigue en el carrito :)',
+                'error'
+              )
+            }
+          })
+        
       };
 
     const cantidadEnCarrito = () => {
@@ -39,6 +81,7 @@ export const CartProvider = ({children}) => {
 
     const vaciarCarrito = () => {
         setCarrito([]);
+        
     }
 
     useEffect(() => {

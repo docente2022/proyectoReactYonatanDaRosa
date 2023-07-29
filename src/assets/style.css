@@ -13,6 +13,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Source Code Pro', monospace;
+  background-image: url('https://images.pexels.com/photos/403575/pexels-photo-403575.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: initial;
+  background-size: cover;
 }
 
 
