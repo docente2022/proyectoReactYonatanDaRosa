@@ -40,8 +40,8 @@ const Checkout = () => {
                 <h1 className="main-title">Muchas gracias por tu compra</h1>
                 <p>En breve recibirás un E-mail con la confirmacion de la compra. </p>
                 <p>Tu número de pedido es: {pedidoId}</p>
-                <FaFaceLaughWink />
-                <Link to={"/"}> <HomeIcon/></Link>
+                <FaFaceLaughWink className=' w-25 h-25' />
+                <Link to={"/"}> <HomeIcon className=' w-25 h-25'/></Link>
             </div>
         )
     }
